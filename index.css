@@ -10,7 +10,7 @@
     color: #f8a038;
 }
 .description{
-    margin-top: 100px;
+    margin-top: 40px;
     line-height: 2;
     font-size: larger;
     height: 250px;
@@ -18,7 +18,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: wheat;
+    border-radius: 10px;
 }
 .description>p{
     padding: 15px;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 40px;
 }
