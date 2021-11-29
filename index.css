@@ -3,4 +3,22 @@
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    background-color: #277957;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: #f8a038;
+}
+.description{
+    margin-top: 100px;
+    line-height: 2;
+    font-size: larger;
+    height: 250px;
+    background-image: url(./img/pizza1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+}
+.description>p{
+    padding: 15px;
 }
