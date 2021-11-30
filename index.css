@@ -44,3 +44,13 @@ h3{
 .order-now{
     margin-bottom: 50px;
 }
+.btn {
+    margin-top: 30px;
+}
+button{
+    border: 1px solid #f8a038;
+    background-color: #277957;
+    color: #f8a038;
+    border-radius: 10px;
+    width: 80px;
+}
