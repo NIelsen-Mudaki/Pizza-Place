@@ -47,10 +47,9 @@ h3{
 .btn {
     margin-top: 30px;
 }
-button{
-    border: 1px solid #f8a038;
+#submit{
     background-color: #277957;
     color: #f8a038;
-    border-radius: 10px;
-    width: 80px;
+    border-radius: 5px;
+    border-style: none;
 }

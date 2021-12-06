@@ -14,16 +14,10 @@ Order.prototype.total = function(){
 }
 
 $(document).ready(function(){
-    $("#order").submit(function(event){
+    $("#form").submit(function(event){
         event.preventDefault();
 
-        var pizzaSize = $("#pizzasize").val();
-        var pizzaNumber = $("#pizzanumber").val();
-
-        totalOrder = new Order(pizzaSize, parseInt(pizzaNumber));
-
-        $("#pizzasize").val("");
-        $("#pizzanumber").val("");
+        
 
     })
 })

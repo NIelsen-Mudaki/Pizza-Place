@@ -51,18 +51,44 @@
         <div>
             <h3>Make your order here</h3>
             <div class="order-now" id="order">
-                <div class="row">
-                    <div class="form-group col-md-5">
-                        <label for="name" class="form-label">Choose the pizza size</label>
-                        <input type="text" class="form-control" id="pizzasize">
+                <form action="#" id="form">
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <select name="pizza" id="pizza">
+                                <option value="none">--select pizza--</option>
+                                <option value="">Hawaiian large @ 1650</option>
+                                <option value="">Hawaiian medium @ 1300</option>
+                                <option value="">Hawaiian small @ 950</option>
+                                <option value="">Regina large @ 1500</option>
+                                <option value="">Regina medium @ 1150</option>
+                                <option value="">Regina small @ 850</option>
+                                <option value="">Periperi large @ 1800</option>
+                                <option value="">Periperi medium @ 1450</option>
+                                <option value="">Periperi small @ 1000</option>
+                                <option value="">Pepperoni large @ 1750</option>
+                                <option value="">Pepperoni medium @ 1250</option>
+                                <option value="">Pepperoni small @ 950</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <select name="toppings" id="toppings">
+                                <option value="none">--select toppings--</option>
+                                <option value="bacon" id="bacon">Bacon @ 80</option>
+                                <option value=""> Sausage @ 60</option>
+                                <option value="">Extra Cheese @ 50</option>
+                                <option value="">Green Pepper @ 75</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="number" name="pizzanumber" id="pizzanumber" placeholder="Number of pizzas">
+                        </div>
                     </div>
-                    <div class="form-group col-md-5">
-                        <label for="deposit" class="form-label">Number of pizzas</label>
-                        <input type="text" class="form-control" id="pizzanumber">
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <input type="submit" value="Place Order" id="submit" required>
+                        </div>
                     </div>
-                    <div class="btn col-md-1">
-                        <button type="submit">ORDER</button>
-                    </div>
+                </form>
             </div>
         </div>
     </div>
